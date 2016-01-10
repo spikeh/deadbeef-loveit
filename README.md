@@ -15,4 +15,4 @@ Install to your home directory:
 (For 32-bit systems, copy to ~/.local/lib/deadbeef/ instead.)
 
 ## Usage
-[![](http://i.imgur.com/wWNdhEJ.jpg)]
+![](http://i.imgur.com/wWNdhEJ.jpg)
