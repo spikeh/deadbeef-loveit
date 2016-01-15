@@ -11,6 +11,7 @@ After cloning this repository, compile the plugin:
 Install to your home directory:
 
 `mkdir -p ~/.local/lib64`
+
 `install -v -m 644 ./loveit.so ~/.local/lib64/deadbeef/`
 
 (For 32-bit systems, copy to `~/.local/lib/deadbeef/` instead.)
