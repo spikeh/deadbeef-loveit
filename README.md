@@ -10,7 +10,7 @@ After cloning this repository, compile the plugin:
 
 Install to your home directory:
 
-`mkdir -p ~/.local/lib64`
+`mkdir -p ~/.local/lib64/deadbeef`
 
 `install -v -m 644 ./loveit.so ~/.local/lib64/deadbeef/`
 
