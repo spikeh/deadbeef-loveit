@@ -1,5 +1,5 @@
 /**
- * Written in 2016 by David H. Wei <https://www.github.com/spikeh>
+ * Written in 2016 by David H. Wei <https://github.com/spikeh>
  * To the extent possible under law, the author(s) have dedicated all copyright
  * and related and neighboring rights to this software to the public domain
  * worldwide. This software is distributed without any warranty.
@@ -113,30 +113,17 @@ DB_misc_t plugin = {
     .plugin.name = "LoveIt",
     .plugin.descr = "Mark loved tracks.",
     .plugin.copyright =
-        "This is free and unencumbered software released into the public domain.\n"
+        "Written in 2016 by David H. Wei <https://github.com/spikeh>\n"
+        "To the extent possible under law, the author(s) have dedicated all "
+        "copyright\n"
+        "and related and neighboring rights to this software to the public "
+        "domain\n"
+        "worldwide. This software is distributed without any warranty.\n"
         "\n"
-        "Anyone is free to copy, modify, publish, use, compile, sell, or\n"
-        "distribute this software, either in source code form or as a compiled\n"
-        "binary, for any purpose, commercial or non-commercial, and by any\n"
-        "means.\n"
-        "\n"
-        "In jurisdictions that recognize copyright laws, the author or authors\n"
-        "of this software dedicate any and all copyright interest in the\n"
-        "software to the public domain. We make this dedication for the benefit\n"
-        "of the public at large and to the detriment of our heirs and\n"
-        "successors. We intend this dedication to be an overt act of\n"
-        "relinquishment in perpetuity of all present and future rights to this\n"
-        "software under copyright law.\n"
-        "\n"
-        "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
-        "EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
-        "MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n"
-        "IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR\n"
-        "OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\n"
-        "ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\n"
-        "OTHER DEALINGS IN THE SOFTWARE.\n"
-        "\n"
-        "For more information, please refer to <http://unlicense.org/>"
+        "You should have received a copy of the CC0 Public Domain Dedication "
+        "along\n"
+        "with this software. If not, see "
+        "<http://creativecommons.org/publicdomain/zero/1.0/>."
     ,
     .plugin.website = "https://github.com/spikeh/deadbeef-loveit",
     .plugin.configdialog = settings_dlg,
