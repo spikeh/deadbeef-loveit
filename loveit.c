@@ -14,7 +14,7 @@
 
 DB_functions_t *deadbeef;
 
-#define DEFAULT_KEY "LOVED"
+#define DEFAULT_KEY "loved"
 #define DEFAULT_VAL "\xE2\x9D\xA4"
 
 static int
@@ -78,6 +78,8 @@ do_loveit (DB_plugin_action_t *action, int ctx)
                 deadbeef->plt_unref(plt);
             }
             deadbeef->sendmessage(DB_EV_PLAYLISTCHANGED, 0, 0, 0);
+        }   else    {
+            deadbeef->pl_delete_meta(track, key);
         }
         deadbeef->pl_item_unref(track);
         deadbeef->pl_unlock();
@@ -86,7 +88,7 @@ do_loveit (DB_plugin_action_t *action, int ctx)
 }
 
 static DB_plugin_action_t loveit_action = {
-    .title = "Love track",
+    .title = "Toggle Love",
     .name = "loveit",
     .flags = DB_ACTION_SINGLE_TRACK | DB_ACTION_ADD_MENU,
     .callback2 = do_loveit,
